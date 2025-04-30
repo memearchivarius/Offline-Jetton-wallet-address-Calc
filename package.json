@@ -1,0 +1,19 @@
+{
+  "name": "master-emulator",
+  "version": "1.0.0",
+  "description": "Jetton Master contract emulation for testing get_wallet_address method",
+  "main": "dist/master-emulator.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/master-emulator.ts"
+  },
+  "dependencies": {
+    "@ton/core": "^0.60.0",
+    "@ton/sandbox": "^0.29.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
